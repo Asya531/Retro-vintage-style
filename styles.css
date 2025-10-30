@@ -1,0 +1,117 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* розташовує блоки зверху вниз */
+  align-items: center;    /* центрує по горизонталі */
+  gap: 20px;              /* відстань між блоками */
+    background-color: #4F4052;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.choose-btn {
+  position: absolute;  /* дозволяє задавати координати */
+  left: 230px;         /* координата X */
+  top: 724px;          /* координата Y */
+  width: 452px;        /* ширина */
+  height: 136px;       /* висота */
+  background-color: #333;
+  color: #000;
+  font-size: 64px;
+  font-family: "Times New Roman", serif;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  transition: transform 0.3s ease;
+}
+
+
+
+.choose-btn:hover {
+    background-color: #333;
+    transform: scale(1.1);
+
+}
+
+.h1 {
+    color: #000;
+   font-family: Istok Web, bold;
+    font-size: 115px;
+    position: absolute;
+    left: 61px;
+    top: 244px;
+    width: 797px;
+    height: 166px;
+}
+
+.img {
+    position: absolute;
+    left: 800px;
+    top: 244px;
+    width: 630px;
+    height: 997px;
+}
+
+.p {
+    color: #000;
+    font-family: Instrument Serif;
+    font-size: 36px;
+    position: absolute;
+    left: 61px;
+    top: 520px;
+    width: 486px;
+    height: 47px;
+}
+
+.information {
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    position: center;
+    padding: 10px 0;
+    position: fixed; /* закріплює елемент */
+    z-index: 1000; /* щоб був поверх іншого контенту */
+    
+}
+
+.navbar {
+  position: fixed;           /* панель завжди зверху */
+  top: 0;
+  left: 0;
+  width: 100%;
+ background-color: rgba(26, 17, 16, 0.8); /* темний колір з прозорістю */
+  padding: 15px 0;           /* внутрішні відступи */
+  display: flex;
+  justify-content: center;   /* вирівнювання по центру */
+  z-index: 1000;
+  
+}
+
+/* Стилі для посилань */
+.navbar a {
+  color: white;              /* білий текст */
+  text-decoration: none;     /* без підкреслення */
+  font-weight: bold;         /* жирний шрифт */
+  font-size: 16px;
+  margin: 0 20px;            /* відстань між пунктами */
+  transition: color 0.3s;    /* плавна зміна кольору при наведенні */
+}
+
+/* Ефект при наведенні */
+.navbar a:hover {
+  color: #B382F4;            /* фіолетовий колір при наведенні */
+}
+
+.nav-logo {
+    color: #FFFFFF;
+     font-size: 16px;
+     left: 61px;
+     position: fixed;
+     text-decoration: none;
+     z-index: 1000;
+}
+
+
